@@ -1,0 +1,78 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+h1{
+  color:white;
+  font-size: 80px;
+  margin-top: 150px;
+}
+.ser{
+  font-size: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.serv{
+  
+  background-image: url('https://www.voyageway.com/wp-content/uploads/2012/02/desert-marocain-erg-chebbi-erg-chegaga.jpg');
+  background-position: center;
+  background-size: cover;
+  
+  height: 90vh;
+}
+
+.card{
+  width: 466px;
+  height: 444px;
+  margin-inline: 37px;
+}
+h3{
+  color:white;
+}
+.hero-btns{
+  margin-top:22px;
+}
+.card-title{
+  color: black;
+}
+.cart{
+  margin-top: 633px;
+}
+video{
+  object-fit: contain;
+  width: 120%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  object-fit: contain;
+  margin-top: -999px;
+ 
+}
+@media screen and (max-width:1200px){
+  h1{
+    font-size: 40px;
+    margin-top: 690px;
+  }
+
+}
+@media screen and (max-width:790px){
+  .container > h1{
+    font-size: 32px;
+    margin-top: 690px;
+  }
+  video{
+    height: 110%;
+  }
+  
+  .btn{
+    width:100%;
+  }
+}
+
