@@ -1,0 +1,49 @@
+.o{
+    margin-top: 30px;
+}
+.v{
+    margin-inline: 30px;
+    
+}
+.cad{
+    box-shadow: 0 1px 5px black;
+
+}
+.card-img { transition: all .2s ease-in-out; }
+.card-img:hover { transform: scale(1.05); }
+.card-bod{
+    padding: 15px;
+    
+
+
+ }
+
+ @media all and  (min-width: 401px) and (max-width: 1240px) {
+    .card-img{
+        max-width: 330px;
+        margin-inline: 0px;
+    }
+    .cad{
+
+        max-width: 330px;
+    
+    }
+ }
+
+@media screen and (max-width: 401px) {
+    .cad{
+
+    max-width: 320px;
+
+}
+ .card-img{
+     max-width: 322px;
+     margin-inline: -2px;
+ }
+ .card-bod{
+    margin-inline: 9px;
+    padding: 15px;
+
+
+ }
+}
